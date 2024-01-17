@@ -3,11 +3,22 @@ body {
   background-color: #011f3f;
 }
 
-#level-title {
+#level-title,
+footer > h3 {
   font-family: "Press Start 2P", cursive;
   font-size: 3rem;
   margin: 5%;
   color: #fef2bf;
+}
+
+footer > h3 {
+  font-size: 1rem;
+  margin: 0.5rem;
+  letter-spacing: 10px;
+}
+
+footer > h3 > span {
+  color: #d7b418;
 }
 
 .container {
